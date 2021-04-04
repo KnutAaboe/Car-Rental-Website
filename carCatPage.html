@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Car Guide</title>
+    <meta
+      name="description"
+      content="This is a selection of cars that you can order."
+    />
+    <meta name="author" content="Christopher" />
+
+    <link rel="stylesheet" href="./style/carCatPage.css" />
+    <!--<link rel="stylesheet" href="./style/o4_UD.css" />-->
+    <style>
+      .carImg {
+        width: 225px;
+        height: auto;
+        margin-left: 0px;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        margin-bottom: 50px;
+      }
+
+      .flex-container > a {
+        background-color: #ffffff;
+        width: 225px;
+        margin: 0.54%;
+        height: 582px; /* 582px */
+        text-align: center;
+        line-height: 1.5em;
+        font-size: 30px;
+        opacity: 0.95;
+        transition: transform 0.3s;
+        outline: 0px solid lightgrey;
+        text-decoration: none;
+        color: black;
+      }
+
+      .flex-container > a:hover {
+        transform: scale(1.05);
+        opacity: 1;
+        outline-width: 5px;
+        color: tomato;
+        z-index: 999;
+      }
+
+      .flex-container > a:focus {
+        transform: scale(1.05);
+        opacity: 1;
+        outline-width: 5px;
+        outline-color: #34b7eb;
+        color: tomato;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #2b4162">
+    <!--Navigation -->
+    <div class="head">
+      <div class="logo-box">
+        <a href="./index.html">
+          <img
+            src="https://images.hertz.com/rac/misc/refresh09/logo_hertz_app.png"
+            alt="hertz logo"
+          />
+        </a>
+      </div>
+      <div class="nav_right">
+        <a class="nav_right_el" href="./notImplemented.html">NO/NO</a>
+      </div>
+      <div class="nav_login">
+        <a class="nav_right_el" href="./notImplemented.html"
+          >Logg inn/Meld deg inn nå</a
+        >
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="navbar_el"><a href="./carCatPage.html">LEIEBIL</a></div>
+      <div class="navbar_el"><a href="./notImplemented.html">VAREBIL</a></div>
+      <div class="navbar_el"><a href="./notImplemented.html">STEDER</a></div>
+      <div class="navbar_el nav_big">
+        <a href="./notImplemented.html">SPESIALTILBUD</a>
+      </div>
+      <div class="navbar_el nav_big">
+        <a href="./notImplemented.html">BEDRIFTSAVTALE</a>
+      </div>
+      <div class="navbar_el"><a href="./notImplemented.html">PRODUKTER</a></div>
+      <div class="navbar_el"><a href="./notImplemented.html">PRODUKTER</a></div>
+      <div class="navbar_el"><a href="./notImplemented.html">HJELP</a></div>
+      <div class="navbar_el nav_big">
+        <a href="./notImplemented.html">GOLD PLUSS REWARDS</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header-container">
+        <h2 class="mainheader" style="text-align: center; font-size: 30px">
+          Car Guide
+        </h2>
+      </div>
+      <!--<div class="error-msg"id="error"></div> -->
+      <div class="flex-container">
+        <a href="./carRentalForm.html" title="lenke til klasse A"
+          ><div>
+            <h3 class="detail-header">Class A</h3>
+            <p class="detail-txt2">DAG: 400 KR</p>
+            <p class="detail-txt2">UKE: 2000 KR</p>
+            <p class="detail-txt2">HELG: 900 KR</p>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a blue scooter"
+                src="./vehicles/A/A1.jpg"
+              />
+            </div>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a red scooter"
+                src="./vehicles/A/A2.jpg"
+                style="margin-top: 70px"
+              />
+            </div></div
+        ></a>
+
+        <a href="./carRentalForm.html" title="lenke til klasse B"
+          ><div>
+            <h3 class="detail-header">Class B</h3>
+            <p class="detail-txt2">DAG: 500 KR</p>
+            <p class="detail-txt2">UKE: 2500 KR</p>
+            <p class="detail-txt2">HELG: 1100 KR</p>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a red car"
+                src="./vehicles/B/B1.jpg"
+              />
+            </div>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a grey car"
+                src="./vehicles/B/B2.jpg"
+                style="margin-top: 70px"
+              />
+            </div></div
+        ></a>
+
+        <a href="./carRentalForm.html" title="lenke til klasse C"
+          ><div>
+            <h3 class="detail-header">Class C</h3>
+            <p class="detail-txt2">DAG: 550 KR</p>
+            <p class="detail-txt2">UKE: 2700 KR</p>
+            <p class="detail-txt2">HELG: 1200 KR</p>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a red truck"
+                src="./vehicles/C/C1.jpg"
+              />
+            </div>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a Truck?..."
+                src="./vehicles/C/C2.jpg"
+                style="margin-top: 70px"
+              />
+            </div></div
+        ></a>
+
+        <a href="./carRentalForm.html" title="lenke til klasse D"
+          ><div>
+            <h3 class="detail-header">Class D</h3>
+            <p class="detail-txt2">DAG: 450 KR</p>
+            <p class="detail-txt2">UKE: 2300 KR</p>
+            <p class="detail-txt2">HELG: 1000 KR</p>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a red bus"
+                src="./vehicles/D/D1.webp"
+              />
+            </div>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a white bus"
+                src="./vehicles/D/D2.jpg"
+                style="margin-top: 70px"
+              />
+            </div></div
+        ></a>
+
+        <a href="./carRentalForm.html" title="lenke til klasse V"
+          ><div>
+            <h3 class="detail-header">Class V</h3>
+            <p class="detail-txt2">DAG: 600 KR</p>
+            <p class="detail-txt2">UKE: 3000 KR</p>
+            <p class="detail-txt2">HELG: 1500 KR</p>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a white delivery truck"
+                src="./vehicles/V/V1.jpg"
+              />
+            </div>
+            <div class="imagecontainer">
+              <img
+                class="carImg"
+                alt="This is an image of a grey delivery truck"
+                src="./vehicles/V/V2.jpg"
+                style="margin-top: 70px"
+              />
+            </div></div
+        ></a>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="info">
+      <p>Bilutleie</p>
+      <p class="text">
+        Trenger du en leiebil? Med over 100 års erfaring fra bilutleie kan man
+        trygt si at du har kommet til rett sted. Hos oss kan du leie bil på over
+        10 000 steder i over 145 land. I Norge har vi godt over hundre
+        utleiekontor, og innehar landets største leiebilflåte. Velg blant et
+        bredt utvalg biler fra de største merkene inkludert varebiler og
+        elbiler. Takk for at du velger Hertz.
+      </p>
+    </div>
+    <div class="social">
+      <div class="nettbrev">
+        <form method="POST" action="./">
+          <input title= "Meld inn" type="text" placeholder="Meld deg inn på vårt nyhetsbrev" />
+          <input type="submit" value="Meld inn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

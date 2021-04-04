@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Car Rental Form</title>
+    <meta
+      name="description"
+      content="Here you can order a car by inputting the details."
+    />
+    <meta name="author" content="Peter Liessem" />
+
+    <link rel="stylesheet" href="./style/carRentalForm.css" />
+  </head>
+
+  <body style="background-color: #2b4162">
+    <div class="head">
+      <div class="logo-box">
+        <a href="./index.html">
+          <img
+            src="https://images.hertz.com/rac/misc/refresh09/logo_hertz_app.png"
+            alt="hertz logo"
+          />
+        </a>
+      </div>
+      <div class="nav_right">
+        <a class="nav_right_el" href="./notImplemented.html">NO/NO</a>
+      </div>
+      <div class="nav_login">
+        <a class="nav_right_el" href="./notImplemented.html"
+          >Logg inn/Meld deg inn nå</a
+        >
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="navbar_el"><a href="./carCatPage.html">LEIEBIL</a></div>
+      <div class="navbar_el"><a href="./notImplemented.html">VAREBIL</a></div>
+      <div class="navbar_el"><a href="./notImplemented.html">STEDER</a></div>
+      <div class="navbar_el nav_big">
+        <a href="./notImplemented.html">SPESIALTILBUD</a>
+      </div>
+      <div class="navbar_el nav_big">
+        <a href="./notImplemented.html">BEDRIFTSAVTALE</a>
+      </div>
+      <div class="navbar_el"><a href="./notImplemented.html">PRODUKTER</a></div>
+      <div class="navbar_el"><a href="./notImplemented.html">PRODUKTER</a></div>
+      <div class="navbar_el"><a href="./notImplemented.html">HJELP</a></div>
+      <div class="navbar_el nav_big">
+        <a href="./notImplemented.html">GOLD PLUSS REWARDS</a>
+      </div>
+    </div>
+    <div class="mainPage">
+      <div class="bestill">
+        <form method="POST" action="./carRentalTheEnd.html">
+          <p>Velg biltype:</p>
+          <select name="cars">
+            <option value="A">Biltype A</option>
+            <option value="B">Biltype B</option>
+            <option value="C">Biltype C</option>
+            <option value="D">Biltype D</option>
+            <option value="V">Biltype V</option>
+          </select>
+          <p>Skriv in sted eller flyplasskode for hvor du vil hente bilen.</p>
+          <input
+            type="text"
+            placeholder="Sted eller flyplasskode"
+            name="henteplass"
+          />
+          <br />
+          <p>
+            Skriv in sted eller flyplasskode for hvor du vil returnere bilen.
+          </p>
+          <input
+            type="text"
+            placeholder="Sted eller flyplasskode"
+            name="returneringsplass"
+          />
+          <br />
+          <p>Tidspunkt for henting</p>
+          <input type="datetime-local" name="henteTid" />
+          <br />
+          <p>Tidspunkt for returnering</p>
+          <input type="datetime-local" name="returneringsTid" />
+          <br />
+          <br />
+          <input type="submit" />
+        </form>
+      </div>
+      <div class="textBox">
+        <a href="./carCatPage.html">Mer info om biltyper</a>
+      </div>
+    </div>
+
+    <div class="info">
+      <p>Bilutleie</p>
+      <p class="text">
+        Trenger du en leiebil? Med over 100 års erfaring fra bilutleie kan man
+        trygt si at du har kommet til rett sted. Hos oss kan du leie bil på over
+        10 000 steder i over 145 land. I Norge har vi godt over hundre
+        utleiekontor, og innehar landets største leiebilflåte. Velg blant et
+        bredt utvalg biler fra de største merkene inkludert varebiler og
+        elbiler. Takk for at du velger Hertz.
+      </p>
+    </div>
+    <div class="social">
+      <div class="nettbrev">
+        <form method="POST" action="./">
+          <input type="text" placeholder="Meld deg inn på vårt nyhetsbrev" />
+          <input type="submit" value="Meld inn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

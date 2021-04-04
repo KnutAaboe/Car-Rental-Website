@@ -1,0 +1,121 @@
+.head {
+  display: flex;
+  margin: 1em;
+}
+.head > * {
+  float: left;
+  background-color: #2b4162;
+  width: 200px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.head > :not(.logo-box) {
+  padding: 10px;
+}
+
+.nav_right {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.nav_right_el:link,
+.nav_right_el:visited {
+  background-color: #f8d247;
+  color: black;
+  border-style: solid;
+  border-color: #2b4162;
+  text-decoration: none;
+  padding: 1em;
+  font-size: x-large;
+}
+.nav_right_el:hover,
+.nav_right_el:active {
+  background-color: #2b4162;
+  color: #f8d247;
+  border-style: solid;
+  border-color: #f8d247;
+  padding: 1em;
+  font-size: x-large;
+}
+.nav_login {
+  display: flex;
+}
+
+.navbar {
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid none solid none;
+  border-color: white;
+}
+.navbar_el {
+  background-color: #2b4162;
+  color: white;
+  width: 9em;
+  text-align: center;
+  padding: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.navbar_el:hover,
+.navbar_el:hover a {
+  background-color: #f8d247;
+  color: black;
+}
+.navbar_el:hover a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.navbar_el > a {
+  color: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.nav_big {
+  flex-grow: 4;
+}
+.navbar_el > a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+.card {
+  width: 450px;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-content: center;
+  
+
+}
+
+.header {
+  background-color: #95af4c;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.container {
+  padding: 10px;
+}
+select {
+  width: 100%;
+  height: 100%;
+}
+#info {
+  align-content: center;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content:center;
+}
+
